@@ -1,4 +1,4 @@
-html {
+/* html {
 	box-sizing: border-box;
 }
 
@@ -31,14 +31,16 @@ body {
 
 h1 {
 	font-family: 'Gloria Hallelujah', cursive;
-}
+} */
 
 
 /*
  * Styles for the deck of cards
  */
-
-
+background {
+  background-image: "img_5093.jpg";
+}
+/*
 .deck {
 	width: 85%;
 	background: #716F71;
@@ -333,4 +335,4 @@ h1 {
 	.popup {
 		width: 60%;
 	}
-}
+} */
