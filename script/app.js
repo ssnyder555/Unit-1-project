@@ -176,7 +176,7 @@ function moveCounter(){
 
 
 // @description game timer
-var second = 0, minute = 0; hour = 0;
+var second = 0, minute = 0, hour = 0;
 var timer = document.querySelector(".timer");
 var interval;
 function startTimer(){
