@@ -1,4 +1,8 @@
-/* html {
+#frankie-1 {
+  background-image: url("../photos/one.JPG");
+  background-repeat: no-repeat;
+}
+ html {
 	box-sizing: border-box;
 }
 
@@ -34,13 +38,10 @@ h1 {
 } */
 
 
-/*
+
  * Styles for the deck of cards
  */
-background {
-  background-image: "img_5093.jpg";
-}
-/*
+
 .deck {
 	width: 85%;
 	background: #716F71;
@@ -109,7 +110,7 @@ background {
 
 /*
  * Styles for the Score Panel
- */
+
 
 
 .score-panel {
