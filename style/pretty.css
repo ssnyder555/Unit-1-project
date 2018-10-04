@@ -1,9 +1,4 @@
-/* #frankie-1 {
-  background-image: url("../photos/one.JPG");
-  background-repeat: no-repeat;
-   justify-content: center;
-   align-items: center;
-} */
+
  html {
 	box-sizing: border-box;
 }
@@ -24,11 +19,12 @@ body {
 }
 
 body {
-	background: #ffffff;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 16px;
-  background-image: url("../photos/one.JPG");
-  border-radius: 50%;
+  background-image: url("https://images7.alphacoders.com/361/thumb-1920-361221.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 
@@ -41,9 +37,8 @@ body {
 
 h1 {
 	font-family: 'Signika', sans-serif;
+  color: yellow;
 }
-
-
 
   /* Styles for the deck of cards */
 
@@ -52,8 +47,7 @@ h1 {
 	width: 85%;
 	background: clear;
 	padding: 1rem;
-	border-radius: 4px;
-	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
+	border-radius: 8px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -65,7 +59,7 @@ h1 {
 	height: 3.7rem;
 	width: 3.7rem;
 	margin: 0.2rem 0.2rem;
-	background: #141214;;
+	background: #99ff33;
 	font-size: 0;
 	color: #ffffff;
 	border-radius: 5px;
@@ -73,7 +67,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+	box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.5);
 }
 
 .deck .card.open {
@@ -92,7 +86,7 @@ h1 {
 
 .deck .card.match {
 	cursor: default;
-	background: #E5F720;
+	background: #ff66ff;
 	font-size: 33px;
 	animation-name: rubberBand;
 	-webkit-backface-visibility: visible !important;
@@ -113,11 +107,7 @@ h1 {
 	opacity: 0.9;
 }
 
-
-
  /* * Styles for the Score Panel */
-
-
 
 .score-panel {
 	text-align: left;
@@ -181,7 +171,7 @@ h1 {
 	width: 85%;
 	position: relative;
 	transition: all 5s ease-in-out;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Signika', sans-serif;
 }
 
 .popup h2 {
@@ -202,7 +192,7 @@ h1 {
 }
 
 .popup .close:hover {
-	color: #E5F720;
+	color: yellow;
 }
 
 .popup .content-1,
@@ -290,7 +280,7 @@ h1 {
 	}
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
 	from {
 		transform: scale3d(1, 1, 1);
 	}
@@ -302,23 +292,8 @@ h1 {
 	to {
 		transform: scale3d(1, 1, 1);
 	}
-}
+} */
 
-
-/****** Media queries
-***************************/
-
-
-@media (max-width: 320px) {
-	.deck {
-		width: 85%;
-	}
-
-	.deck .card {
-		height: 4.7rem;
-		width: 4.7rem;
-	}
-}
 
 
 /* For Tablets and larger screens
